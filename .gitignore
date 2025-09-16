@@ -7,6 +7,9 @@ out/
 /broadcast/*/31337/
 /broadcast/**/dry-run/
 
+# Ignore ZKSync output
+zkout/
+
 # Docs
 docs/
 
@@ -43,6 +46,3 @@ Thumbs.db
 
 # Foundry artifacts
 foundry.lock
-
-# Remove .gitignore from being ignored (this line should not be here)
-# .gitignore
